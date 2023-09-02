@@ -1,15 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex,follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kevin Hamm | Data Journalist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+    img {
+        width: 40%;
+        float: right;
+        /*padding: 20px;*/
+        margin: 10px 0 0 10px;
+        border: 1px solid lightgray;
+    }
+
+    .graphic-title {
+        color: #8b0000;
+        text-transform: uppercase;
+        font-size: .8em;
+        font-weight: 700;
+    }
+
+    .graphic-description {
+        font-size: 1.1em;
+    }
+
+    .intro {
+        font-size: 1.2em;
+    }
+
+    .top-bar {
+        width: 100%;
+        background: #e4e4e4;
+        margin-bottom: 25px;
+    }
+
+    .top-bar-text {
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    @media all and (max-width:1200px) {
+        img {
+            width: 100%;
+            float: none;
+            padding: 0;
+            margin: 10px 0 12px 0;
+        }
+    }
+    </style>
 </head>
 
 <body>
-    <h1>Hello, world</h1>
+    <div class="top-bar">
+        <h1 class="top-bar-text">Kevin Hamm | Data Journalist | Interactive Designer</h1>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <p class="intro">Hi. I'm Kevin Hamm, a data journalist/interactive designer/jack of all trades at The Denver Post. I've had the opportunity to work on a lot of interesting projects during my time at the Post, and I thought I'd drop some of them here. If you have any questions or comments, feel free to email me at hamm.kevin<span style="display:none">foo</span>@gmail.com. Thanks for stopping by. <em>The non-denverpost.com links are usually the full-width graphics that get iframed onto The Denver Post, so they can be, well, wide (but they're all responsive).</em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/wildfire/latest-tracker/all_graphics.html">Wildfires in Colorado and the United States</a></h2>
+                <a href="https://extras.denverpost.com/app/wildfire/latest-tracker/all_graphics.html"><img src="./wildfire_tracker_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://extras.denverpost.com/app/wildfire/latest-tracker/all_graphics.html">wildfire tracker</a> fetches wildfire data from the National Interagency Fire Center every hour and updates the map, list and chart. The map shows all fires currently burning in the United States and can be filtered in a variety of ways. The list shows wildfires larger than 10 acres that have burned in Colorado in 2023. The chart shows wildfires larger than 1,000 acres that have burned in Colorado in 2023. <em><a href="https://www.denverpost.com/2018/06/05/wildfires-colorado-united-states-map/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/longshadow/graphics/map/">Asthma in Denver: Search rates by neighborhood</a></h2>
+                <a href="https://extras.denverpost.com/longshadow/graphics/map/"><img src="./asthma_map_thumbnail.png"></a>
+                <p class="graphic-description">Asthma rates in the Elyria-Swansea and Globeville neighborhoods are already higher than the state average, and there is concern the Colorado Department of Transportation’s project to overhaul Interstate 70 could worsen the air quality in those and surrounding neighborhoods. The <a href="https://extras.denverpost.com/longshadow/graphics/map/">map</a>, <a href="https://extras.denverpost.com/longshadow/graphics/table/">table</a> and <a href="https://datawrapper.dwcdn.net/6Bed5/3/">chart</a> allow readers to drill down into asthma data to see rates where they live. <em><a href="https://www.denverpost.com/2019/06/30/denver-asthma-rates/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/homicide-report/index_papa.html">Denver Homicide Report</a></h2>
+                <a href="https://extras.denverpost.com/app/homicide-report/index_papa.html"><img src="./homicide_report_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://extras.denverpost.com/app/homicide-report/index_papa.html">Denver Homicide Report</a> tracks every homicide in Denver from 2015 to the present in charts, a map and a searchable table. It pulls data dynamically from a Google Sheet. <em><a href="https://www.denverpost.com/denver-homicides/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/denver-development/maps/permits/">Where is Denver residential development happening?</a></h2>
+                <a href="https://extras.denverpost.com/app/denver-development/maps/permits/"><img src="./development_map_thumbnail.png"></a>
+                <p class="graphic-description">The Denver Post used city data to <a href="https://extras.denverpost.com/app/denver-development/maps/permits/">map apartments, houses, duplexes and townhomes</a> built or authorized from Jan. 1, 2016 through Jan. 29, 2019. The results show intense apartment construction in downtown and along Interstate 25, a wave of lower-scale multifamily through northwest Denver, and more. <em><a href="https://www.denverpost.com/2019/02/22/denver-residential-development-map/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://www.denverpost.com/2017/12/22/how-colorado-votes/">How Colorado has voted in presidential elections (and how its politics have changed) since 1980</a></h2>
+                <a href="https://www.denverpost.com/2017/12/22/how-colorado-votes/"><img src="./colorado_votes_thumbnail.png"></a>
+                <p class="graphic-description"><a href="https://www.denverpost.com/2017/12/22/how-colorado-votes/">Colorado was once a reliable Republican win</a> in presidential elections. In the 18 elections that took place between 1920 and 1988, Democrats won the state only four times. In the seven elections since, Democrats have won four times, including the last three. <em><a href="https://www.denverpost.com/2017/12/22/how-colorado-votes/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/cmas/2023/">How each Colorado school performed on CMAS tests</a></h2>
+                <a href="https://extras.denverpost.com/app/cmas/2023/"><img src="./cmas_scores_thumbnail.png"></a>
+                <p class="graphic-description">Colorado students’ performance in math and literacy is starting to rebound to levels not seen since before the coronavirus pandemic shuttered schools three years ago, according to new data released by the state Department of Education Thursday. The <a href="https://extras.denverpost.com/app/cmas/2023/">CMAS scores database</a> allows readers to filter and sort test scores by district, school, discipline and grade. <em><a href="https://www.denverpost.com/2023/08/17/colorado-cmas-test-scores-2023/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="http://extras.denverpost.com/projects/2019/school-lockdowns/denver/denver-map.html">Colorado school lockdown and lockout database</a></h2>
+                <a href="http://extras.denverpost.com/projects/2019/school-lockdowns/denver/denver-map.html"><img src="./school_lockdowns_thumbnail.png"></a>
+                <p class="graphic-description">The Denver Post collected data for more than 2,000 <a href="http://extras.denverpost.com/projects/2019/school-lockdowns/denver/denver-map.html">school lockdown and lockout incidents</a> from 25 school districts across Colorado. The data was published in a series of maps, charts and a searchable table. <em><a href="https://www.denverpost.com/2019/04/16/colorado-school-lockdown-lockout-database/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/coronavirus/dashboard-may-2022/index.html">Colorado coronavirus tracker</a></h2>
+                <a href="https://extras.denverpost.com/app/coronavirus/dashboard-may-2022/index.html"><img src="./covid_19_tracker_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://extras.denverpost.com/app/coronavirus/dashboard-may-2022/index.html">COVID-19 tracker</a> shows statewide cases, hospitalizations and deaths &mdash; both cumulative and broken down by vaccination status &mdash; as well as county-level cases and deaths data. It automatically pulls public health department data when it's updated. <em><a href="https://www.denverpost.com/2020/03/06/coronavirus-map-colorado/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/the-big-payout/all_graphics.html">The Big Payout: A visual look at where Colorado’s nearly $66 billion in federal pandemic aid went</a></h2>
+                <a href="https://extras.denverpost.com/the-big-payout/all_graphics.html"><img src="./big_payout_thumbnail.png"></a>
+                <p class="graphic-description">This page collects some of the graphics that ran with the series <a href="https://extras.denverpost.com/the-big-payout/all_graphics.html">The Big Payout</a>, which examined how the $63 billion in federal COVID-19 funding Colorado received was allocated. <em><a href="https://www.denverpost.com/2022/04/14/tracking-colorado-pandemic-money-big-payout/">Link on denverpost.com</a>, <a href="https://www.denverpost.com/2022/04/14/colorado-covid-aid-money-investigation-big-payout/">link</a>, <a href="https://www.denverpost.com/2022/04/14/colorado-covid-aid-money-big-payout-pandemic-assistance/">link</a>, <a href="https://www.denverpost.com/2022/04/17/colorado-rural-counties-covid-aid-money/">link</a>, <a href="https://www.denverpost.com/2022/04/18/coronavirus-covid-aid-pitkin-county-aspen-ski-resorts/">link</a>, <a href="https://www.denverpost.com/2022/11/06/weld-county-lags-in-economic-recovery-federal-stimulus-oil-gas/">link</a>, <a href="https://www.denverpost.com/2022/04/15/colorado-covid-aid-money-health-care-hospitals/">link</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://www.denverpost.com/2022/10/14/colorado-voter-guide-candidates-ballot-measures-2022/">Colorado voter guide</a></h2>
+                <a href="https://www.denverpost.com/2022/10/14/colorado-voter-guide-candidates-ballot-measures-2022/"><img src="./voter_guide_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://www.denverpost.com/2022/10/14/colorado-voter-guide-candidates-ballot-measures-2022/">voter guide</a> collects Denver Post election stories, candidate Q&As and endorsements in an easy-to-use format. The Q&As <a href="https://www.denverpost.com/2022/10/14/colorado-election-2022-candidate-questionnaires/">cover dozens of races</a> and more than 200 candidates. <em><a href="https://www.denverpost.com/2022/10/14/colorado-voter-guide-candidates-ballot-measures-2022/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/maps/news/colorado-dams/">Map: Colorado has more than 400 “high hazard” dams, and 27 of them are deficient</a></h2>
+                <a href="https://extras.denverpost.com/maps/news/colorado-dams/"><img src="./colorado_dams_thumbnail.png"></a>
+                <p class="graphic-description">There are more than <a href="https://extras.denverpost.com/maps/news/colorado-dams/">1,700 regulated dams in Colorado</a>, many of them privately owned. More than 400 of those dams are classified as "high hazard" because they are located near populated areas, and 27 of those are operating with restrictions in place. <em><a href="https://www.denverpost.com/2019/12/01/colorado-dams-high-hazard/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://plus.denverpost.com/databases/ku-klux-klan/">See where 1920s Denver Ku Klux Klan members lived, search the database</a></h2>
+                <a href="https://plus.denverpost.com/databases/ku-klux-klan/"><img src="./kkk_map_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://plus.denverpost.com/databases/ku-klux-klan/">map and database<a> allow users to search membership of the Denver Ku Klux Klan chapter from 1924 to 1926. The ledgers were digitized by History Colorado staff, who spent more than 300 hours logging by hand each address. The ledgers contain approximately 30,000 entries. <em><a href="https://www.denverpost.com/2021/09/14/denver-kkk-members-map-database/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="http://extras.denverpost.com/charts/sports/rockies/historical-record/">Since 1993, Colorado Rockies have worst record against National League West rivals</a></h2>
+                <a href="http://extras.denverpost.com/charts/sports/rockies/historical-record/"><img src="./nl_west_records_thumbnail.png"></a>
+                <p class="graphic-description">In the 24 seasons since the Colorado Rockies joined the league in 1993, the team has posted a winning record seven times. <a href="http://extras.denverpost.com/charts/sports/rockies/historical-record/">Against National League West opponents from 1993-2016</a>, the Rockies have a winning record against only the San Diego Padres, and the worst cumulative record against division opponents. <em><a href="https://www.denverpost.com/2016/04/20/since-1993-colorado-rockies-have-worst-record-against-national-league-west-rivals/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/nfl-draft-tracker/2023/index.html?123">2023 NFL draft tracker: Picks, instant reaction and more live coverage</a></h2>
+                <a href="https://extras.denverpost.com/app/nfl-draft-tracker/2023/index.html?123"><img src="./nfl_draft_tracker_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://extras.denverpost.com/app/nfl-draft-tracker/2023/index.html?123">NFL draft tracker</a> shows teams and players they draft in real time. Reporters and producers enter player details into a Google Sheet that updates the app dynamically. Readers can sort and search the data using different criteria. <em><a href="https://www.denverpost.com/2023/04/27/2023-nfl-draft-tracker/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/marshall-fire/address-map/">Marshall fire: Map of destroyed or damaged homes and businesses</a></h2>
+                <a href="https://extras.denverpost.com/marshall-fire/address-map/"><img src="./marshall_fire_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://extras.denverpost.com/marshall-fire/address-map/">map</a> shows the locations of structures destroyed in the Marshall fire and allows users to zoom and pan, and includes popups with details. <em><a href="https://www.denverpost.com/2022/01/04/marshall-fire-map-destroyed-damaged-homes-businesses/">Link on denverpost.com</a>, <a href="https://www.denverpost.com/2021/12/31/marshall-fire-map-perimeter-boulder-county-wildfire/">link</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/maps/business/2021/colorado_home_values_zip_code_2021.html">Find Colorado home values by ZIP code</a></h2>
+                <a href="https://extras.denverpost.com/maps/business/2021/colorado_home_values_zip_code_2021.html"><img src="./home_value_map_thumbnail.png"></a>
+                <p class="graphic-description"><a href="https://extras.denverpost.com/maps/business/2021/colorado_home_values_zip_code_2021.html">Home price gains</a> the past 12 months through July are strongest in areas outside metro Denver, in particular the mountain resorts, the southern Front Range and Mesa County on the Western Slope. Colorado is one of eight states where more than half of ZIP codes have registered double-digit price gains the past year. <em><a href="https://www.denverpost.com/2021/10/11/colorado-home-values-zip-code-map/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-1">
+                <h2 class=""><a href="https://extras.denverpost.com/app/calculators/home-affordability/">Can you afford to buy a house? Try this income and home price calculator.</a></h2>
+                <a href="https://extras.denverpost.com/app/calculators/home-affordability/"><img src="./home_price_calculator_thumbnail.png"></a>
+                <p class="graphic-description">The <a href="https://extras.denverpost.com/app/calculators/home-affordability/">home price calculator</a> lets readers input their data and tells them how much house they can afford given a certain income or how much income they need to afford a certain home price. <em><a href="https://www.denverpost.com/2022/05/24/how-much-house-can-i-afford-calculator-mortgage-income/">Link on denverpost.com</a></em></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
